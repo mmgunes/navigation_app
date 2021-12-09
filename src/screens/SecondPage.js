@@ -7,7 +7,7 @@ export default function SecondPage({route}) {
     return (
         
         <View>
-            <Text>Adınız : {route.params.postState.name}</Text>
+            <Text >Adınız : {route.params.postState.name}</Text>
             <Text>Mesajınız: {gelen.content}</Text>
             <Text>Mesajınız 2: {route.params.bool}</Text>
         </View>

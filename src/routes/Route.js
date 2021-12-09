@@ -8,6 +8,7 @@ import FirstPage from '../screens/FirstPage';
 import SecondPage from '../screens/SecondPage';
 import Taziye from '../screens/Taziye';
 import TaziyeDetails from '../screens/TaziyeDetails';
+import CardUse from '../components/CardUse';
 
 const Stack = createNativeStackNavigator();
 
@@ -37,6 +38,11 @@ function Route() {
           name="Taziye"
           component={Taziye}
           options={{title: 'TAZİYELER'}}
+        />
+        <Stack.Screen
+          name="CardUse"
+          component={CardUse}
+          options={{title: 'Kart Kullan'}}
         />
         <Stack.Screen
           name="TaziyeDetails"

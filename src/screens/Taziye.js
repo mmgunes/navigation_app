@@ -49,11 +49,12 @@ export default function Taziye({navigation}) {
               <View>
                 <Text> Vefat Eden : {repo.vefat_eden}</Text>
               </View>
+              
               <View>
-                <Text> Telefon : {repo.tel_no}</Text>
+                <Text> Vefat Tarihi : {repo.vefat_tarihi}</Text>
               </View>
               <View>
-                <Text> Tarih : {repo.vefat_tarihi}</Text>
+                <Text> Yaşı : {repo.yasi}</Text>
               </View>
             </View>
           </TouchableOpacity>

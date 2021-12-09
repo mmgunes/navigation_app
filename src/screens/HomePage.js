@@ -46,6 +46,17 @@ export default function HomePage({navigation}) {
           }}
         />
       </View>
+      <View style={{marginTop:15}}>
+        <Button
+          title="TAZİYELER"
+          color="red"
+          onPress={() => {
+            navigation.navigate(
+              'CardUse'
+            );
+          }}
+        />
+      </View>
     </View>
   );
 }
